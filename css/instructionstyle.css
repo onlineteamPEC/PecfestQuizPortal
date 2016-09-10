@@ -1,0 +1,84 @@
+body{
+    background: url("../images/super.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+    padding: 0px;
+    margin: 0px;
+	color: #054068;
+}
+
+.main {
+    color: white;
+    position: fixed;
+    right: 0px;
+    height: 100vh;
+    width: 50vw;
+    overflow: hidden;
+    display: table;
+}
+
+.inside {
+    display: table-row;
+    vertical-align: top;
+}
+
+h1 { 
+    color: white; 
+    font-family: 'Rouge Script',cursive; 
+    font-size: 30px; 
+    font-weight: 800; 
+    line-height: 36px;  
+    text-align: center; 
+}
+
+p { 
+    color: white;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 32px; 
+    margin: 5% 0 0; 
+}
+
+.main {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+}
+
+ol {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+}
+
+button {
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: table-row;
+    text-align: right;
+    height: 1%;
+}
+
+#btn2 {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2%;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
